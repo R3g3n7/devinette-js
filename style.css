@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(135deg, #1e1e2f, #2c2c3c);
+    color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    background-image: url('/img/bg.png') ;
+    background-size: cover;
+    background-position: center;    
+    background-repeat: no-repeat;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(47, 47, 69, 0.35); /* semi-trasparente */
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 300px;
+    backdrop-filter: blur(10px); /* vetro opaco */
+    -webkit-backdrop-filter: blur(10px); /* per Safari */
+    border: 1px solid rgba(255, 255, 255, 0.1); /* bordino luminoso soft */
+  }
+  
+  .container-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+
+    padding: 2rem;
+
+
+    text-align: center;
+    width: 50vw;
+  }
+  
+  h1 {
+    margin-bottom: 1rem;
+    font-size: 4rem;
+  }
+  
+  p {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  input[type="number"] {
+    width: 100%;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 8px;
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  
+  button {
+    margin-top: 1rem;
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    background-color: #6f20bd;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    color: #ccc;
+  }
+  
+  button:hover {
+    background-color: #1c0732;
+  }
+  
+  #feedback {
+    margin-top: 1rem;
+    font-weight: bold;
+    min-height: 1.5rem;
+  }
+  
+  #tries {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #ccc;
+  }
+  #playAgain {
+    margin-top: 1rem;
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    background-color: #2196f3;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  #playAgain:hover {
+    background-color: #1976d2;
+  }
+  

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeu de Devinette</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-main">
+        <h1>Jeu de Devinette 🔮</h1>
+        <p>Devinez le nombre mystère entre 1 et 100</p>
+
+  <div class="container">
+    
+    <input type="number" id="guessInput" placeholder="Votre nombre..." />
+    <button id="submitGuess">Deviner</button>
+    <button id="playAgain" style="display: none;">Rejouer</button>
+
+
+   
+    <div id="feedback"></div>
+    <div id="tries"></div>
+  </div>
+
+    </div>
+  <script src="sound.js"></script>
+  <script src="devinette.js"></script>
+</body>
+</html>
